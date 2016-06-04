@@ -1,7 +1,7 @@
 # pulsatile-transit
 Stochastic process describing fluid transit in gastrointestinal tract
 
-© 2016 Arjang Talattof
+© 2016
 
 Fasted-state gastrointestinal (GI) fluid transit occurs not as a first-order, deterministic process, which is almost always an averaged approximation, but rather as a discrete process involving fluid packets. The transit of these fluid packets is known to occur in pulses which are irregular in both size and time. The influence this phenomenon has on the concentration presented at the absorption site should not be underestimated, and indeed this physiological factor presents a source of inter- and intra-subject variability affecting plasma levels, thus having bioequivalence (BE) implications for immediate release as well as controlled release dosage forms. 
 
