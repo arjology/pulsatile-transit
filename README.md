@@ -7,11 +7,15 @@ A novel, stochastic process was developed describing cyclical fasted-state gastr
 
 Files:
 
-[gi_fluids]
-  Run by calling the desired function ("optimize", "emptying", or "lambda") and subsequent arguments
+* gi_fluids:  Program to calculate the transit along GI tract. Implementing a Poisson point process to determine the time between emptying events of random fluid packet. Run by calling the desired function ("optimize", "emptying", or "lambda") and subsequent arguments
   - optimize dose dose_vol ITS
     - optimize the parameters give a dose and initial fluid volume (dose_vol) using ITS number of iterations  
   - emptying dose_vol ITS
     - output gastric emptying profiles of an initial fluid volume (dose_vol) using ITS number of iterations  
   - lambda
     - output the MMC-dependent parameter λ(t) for the Poisson process
+* gi_emptying: Run by calling the desired function ("optimize", "emptying", or "lambda") and subsequent arguments
+  - optimize dose dose_vol ITS
+    - optimize the parameters give a dose and initial fluid volume (dose_vol) using ITS number of iterations  
+  - default
+    - Compute the average T50 (half-emptying times) for 50 and 200 mL dose volumes during phases I, II, and III.
