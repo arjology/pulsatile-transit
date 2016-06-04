@@ -14,4 +14,4 @@ Files:
   - emptying dose_vol ITS
     - output gastric emptying profiles of an initial fluid volume (dose_vol) using ITS number of iterations  
   - lambda
-    - output the MMC-dependent parameter $\lambda$ for the Poisson process
+    - output the MMC-dependent parameter λ(t) for the Poisson process
