@@ -1,5 +1,5 @@
 # pulsatile-transit
-Stochastic process describing fluid transit in gastrointestinal tract
+Stochastic process describing fluid transit in the gastrointestinal tract
 
 © 2016 A. Talattof
 
