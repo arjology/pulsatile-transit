@@ -19,3 +19,5 @@ Files:
     - optimize the parameters give a dose and initial fluid volume (dose_vol) using ITS number of iterations  
   - default
     - Compute the average T50 (half-emptying times) for 50 and 200 mL dose volumes during phases I, II, and III.
+
+Note: commons-math3-3.6 is required for functional operation. Please visit http://commons.apache.org/
